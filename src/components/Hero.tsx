@@ -2,7 +2,7 @@ import { MODELS } from "../data/models";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-black flex flex-col items-center justify-center text-center px-6 pt-20 relative overflow-hidden">
+    <section className="min-h-screen bg-black flex flex-col items-center justify-center text-center px-6 pt-25 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-orange-950/30 via-black to-black" />
       <div className="relative z-10 max-w-3xl">
         <span className="inline-block text-orange-400 text-sm font-bold tracking-widest uppercase mb-4 border border-orange-400/30 px-4 py-1 rounded-full">

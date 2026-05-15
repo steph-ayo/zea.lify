@@ -29,7 +29,7 @@ export default function Nav({ onCartOpen }: Props) {
 
       <a
         href="#custom-branding"
-        className="hover:text-orange-400 transition-colors"
+        className=" hidden md:block hover:text-orange-400 transition-colors"
       >
         Custom Branding
       </a>

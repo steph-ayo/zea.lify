@@ -9,7 +9,7 @@ export default function Catalogue() {
     active === "All" ? PRODUCTS : PRODUCTS.filter((p) => p.category === active);
 
   return (
-    <section id="catalogue" className="bg-black px-6 py-24">
+    <section id="catalogue" className="bg-black px-3 py-24">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <span className="text-orange-400 text-sm font-bold tracking-widest uppercase">
@@ -37,7 +37,7 @@ export default function Catalogue() {
             </button>
           ))}
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {filtered.map((p) => (
             <ProductCard key={p.id} product={p} />
           ))}

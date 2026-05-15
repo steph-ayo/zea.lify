@@ -20,6 +20,7 @@ export default function ProductCard({ product }: Props) {
 
   return (
     <div className="group bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 hover:border-orange-400/50 transition-all duration-300 hover:-translate-y-1">
+      {/* Product image */}
       <div className="relative aspect-square overflow-hidden bg-zinc-800">
         <img
           src={product.image}
@@ -32,7 +33,9 @@ export default function ProductCard({ product }: Props) {
           </span>
         )}
       </div>
-      <div className="p-4">
+
+      {/* Product details */}
+      <div className="p-2">
         <p className="text-xs text-orange-400 font-bold uppercase tracking-widest mb-1">
           {product.category}
         </p>
