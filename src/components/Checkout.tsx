@@ -163,7 +163,7 @@ export default function Checkout({ onBack, onSuccess }: Props) {
               <div className="space-y-4">
                 <Field
                   label="Full Name"
-                  placeholder="John Doe"
+                  placeholder=""
                   value={form.name}
                   error={errors.name}
                   onChange={set("name")}
@@ -171,7 +171,7 @@ export default function Checkout({ onBack, onSuccess }: Props) {
 
                 <Field
                   label="Email"
-                  placeholder="john@email.com"
+                  placeholder=""
                   value={form.email}
                   error={errors.email}
                   onChange={set("email")}
@@ -179,7 +179,7 @@ export default function Checkout({ onBack, onSuccess }: Props) {
 
                 <Field
                   label="Address"
-                  placeholder="12 Broad Street"
+                  placeholder=""
                   value={form.address}
                   error={errors.address}
                   onChange={set("address")}
@@ -187,7 +187,7 @@ export default function Checkout({ onBack, onSuccess }: Props) {
 
                 <Field
                   label="City"
-                  placeholder="Lagos"
+                  placeholder=""
                   value={form.city}
                   error={errors.city}
                   onChange={set("city")}
@@ -223,7 +223,7 @@ export default function Checkout({ onBack, onSuccess }: Props) {
                 </div>
 
                 <div className="flex justify-between text-zinc-400">
-                  <span>Shipping</span>
+                  <span>Delivery</span>
                   <span>{fmt(shipping)}</span>
                 </div>
 
@@ -238,7 +238,7 @@ export default function Checkout({ onBack, onSuccess }: Props) {
                 disabled={loading}
                 className="w-full mt-6 bg-orange-400 hover:bg-orange-500 text-black font-black py-4 rounded-full"
               >
-                {loading ? "Opening Payment..." : "Pay Now 🔒"}
+                {loading ? "Opening Payment..." : "Pay Now"}
               </button>
             </div>
           </div>
