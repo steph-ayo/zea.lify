@@ -27,11 +27,25 @@ export default function Footer() {
         </div>
         <div>
           <p className="text-white font-bold mb-3">Get in Touch</p>
-          <p className="mb-1">hello@zealify.com</p>
-          <p className="mb-4">+234 806 589 3230</p>
+          <div className="flex flex-col gap-4">
+            <a
+              href="mailto:zezemata2020@gmail.com"
+              className="hover:text-orange-400 transition-colors mb-1"
+            >
+              zezemata2020@gmail.com
+            </a>
+
+            <a
+              href="tel:+2348137766130"
+              className="hover:text-orange-400 transition-colors mb-4"
+            >
+              +2348137766130
+            </a>
+          </div>
+
           <div className="flex gap-4">
             <a
-              href="https://wa.me/2348065893230"
+              href="https://wa.me/2348137766130"
               target="_blank"
               rel="noreferrer"
               className="hover:text-orange-400 transition-colors"

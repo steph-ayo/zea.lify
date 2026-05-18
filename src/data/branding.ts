@@ -1,12 +1,12 @@
 import type { Brand } from "../types/index";
 import custom1 from "../assets/images/customs/custom1.png";
 import custom2 from "../assets/images/customs/custom2.png";
-import custom3 from "../assets/images/customs/custom3.png";
-import custom4 from "../assets/images/customs/custom4.png";
+// import custom3 from "../assets/images/customs/custom3.png";
+// import custom4 from "../assets/images/customs/custom4.png";
 import custom5 from "../assets/images/customs/custom5.png";
 import custom6 from "../assets/images/customs/custom6.png";
 import custom7 from "../assets/images/customs/custom7.png";
-import custom8 from "../assets/images/customs/custom8.png";
+// import custom8 from "../assets/images/customs/custom8.png";
 
 export const BRANDS: Brand[] = [
   {
@@ -24,29 +24,30 @@ export const BRANDS: Brand[] = [
     category: "Tees",
     image: custom2,
   },
-  {
-    id: 3,
-    name: "Motion Graphic Tee",
-    price: 14000,
-    category: "Tees",
-    image: custom3,
-    tag: "New",
-  },
-  {
-    id: 4,
-    name: "Core Oversized Tee",
-    price: 15000,
-    category: "Tees",
-    image: custom4,
-  },
+  // {
+  //   id: 3,
+  //   name: "Motion Graphic Tee",
+  //   price: 14000,
+  //   category: "Tees",
+  //   image: custom3,
+  //   tag: "New",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Core Oversized Tee",
+  //   price: 15000,
+  //   category: "Tees",
+  //   image: custom4,
+  // },
   {
     id: 5,
-    name: "Zeal Signature Hoodie",
-    price: 28000,
+    name: "Street Heavy Hoodie",
+    price: 30000,
     category: "Hoodies",
-    image: custom5,
-    tag: "Bestseller",
+    image: custom7,
+    tag: "New",
   },
+
   {
     id: 6,
     name: "Creator Pullover",
@@ -56,19 +57,19 @@ export const BRANDS: Brand[] = [
   },
   {
     id: 7,
-    name: "Street Heavy Hoodie",
-    price: 30000,
+    name: "Zeal Signature Hoodie",
+    price: 28000,
     category: "Hoodies",
-    image: custom7,
-    tag: "New",
+    image: custom5,
+    tag: "Bestseller",
   },
-  {
-    id: 8,
-    name: "Bold Logo Hoodie",
-    price: 27000,
-    category: "Hoodies",
-    image: custom8,
-  },
+  // {
+  //   id: 8,
+  //   name: "Bold Logo Hoodie",
+  //   price: 27000,
+  //   category: "Hoodies",
+  //   image: custom8,
+  // },
 ];
 
 export const CATEGORIES: import("../types").Category[] = [
