@@ -50,7 +50,7 @@ export default function CustomBranding() {
           </p>
           <div className="flex gap-4 flex-wrap justify-center">
             <a
-              href="https://wa.me/2348065893230"
+              href="https://wa.me/2348137766130"
               target="_blank"
               rel="noreferrer"
               className="bg-orange-400 hover:bg-orange-500 text-black font-black px-8 py-4 rounded-full text-sm uppercase tracking-wider transition-all hover:scale-105"
@@ -58,7 +58,7 @@ export default function CustomBranding() {
               WhatsApp Us 💬
             </a>
             <a
-              href="mailto:hello@zealify.com"
+              href="mailto:zezemata2020@gmail.com"
               className="border border-zinc-700 hover:border-orange-400 text-white font-bold px-8 py-4 rounded-full text-sm uppercase tracking-wider transition-all"
             >
               Send an Email →
