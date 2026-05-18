@@ -1,12 +1,13 @@
 import type { Model } from "../types/index";
-import model1 from "../assets/images/model1.png";
-import model2 from "../assets/images/model2.png";
-import model3 from "../assets/images/model3.png";
-import model4 from "../assets/images/model4.png";
-import model5 from "../assets/images/model5.png";
-import model6 from "../assets/images/model6.png";
-import model7 from "../assets/images/model7.png";
-import model8 from "../assets/images/model8.png";
+import model1 from "../assets/images/models/model1.png";
+import model2 from "../assets/images/models/model2.png";
+import model3 from "../assets/images/models/model3.png";
+import model4 from "../assets/images/models/model4.png";
+import model5 from "../assets/images/models/model5.png";
+import model6 from "../assets/images/models/model6.png";
+import model7 from "../assets/images/models/model7.png";
+import model8 from "../assets/images/models/model8.png";
+import model9 from "../assets/images/models/model9.png";
 
 export const MODELS: Model[] = [
   {
@@ -52,7 +53,7 @@ export const MODELS: Model[] = [
     name: "Creator Pullover",
     price: 26500,
     category: "Hoodies",
-    image: model6,
+    image: model9,
   },
   {
     id: 7,
@@ -69,12 +70,19 @@ export const MODELS: Model[] = [
     category: "Hoodies",
     image: model8,
   },
+  {
+    id: 7,
+    name: "Creator Pullover",
+    price: 26500,
+    category: "Hoodies",
+    image: model6,
+  },
 ];
 
 export const CATEGORIES: import("../types").Category[] = [
   "All",
   "Tees",
   "Hoodies",
-  "Caps",
+  "Cargos",
   "Sets",
 ];

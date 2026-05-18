@@ -1,12 +1,12 @@
 import type { Brand } from "../types/index";
-import custom1 from "../assets/images/custom1.png";
-import custom2 from "../assets/images/custom2.png";
-import custom3 from "../assets/images/custom3.png";
-import custom4 from "../assets/images/custom4.png";
-import custom5 from "../assets/images/custom5.png";
-import custom6 from "../assets/images/custom6.png";
-import custom7 from "../assets/images/custom7.png";
-import custom8 from "../assets/images/custom8.png";
+import custom1 from "../assets/images/customs/custom1.png";
+import custom2 from "../assets/images/customs/custom2.png";
+import custom3 from "../assets/images/customs/custom3.png";
+import custom4 from "../assets/images/customs/custom4.png";
+import custom5 from "../assets/images/customs/custom5.png";
+import custom6 from "../assets/images/customs/custom6.png";
+import custom7 from "../assets/images/customs/custom7.png";
+import custom8 from "../assets/images/customs/custom8.png";
 
 export const BRANDS: Brand[] = [
   {
@@ -75,6 +75,6 @@ export const CATEGORIES: import("../types").Category[] = [
   "All",
   "Tees",
   "Hoodies",
-  "Caps",
+  "Cargos",
   "Sets",
 ];

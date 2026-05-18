@@ -1,4 +1,4 @@
-export type Category = "All" | "Tees" | "Hoodies" | "Caps" | "Sets";
+export type Category = "All" | "Tees" | "Hoodies" | "Cargos" | "Sets";
 
 export interface Model {
   id: number;
